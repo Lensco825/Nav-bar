@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #D3EFBD;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  border: solid 2px black;
+  transition: 0.8s;
+}
+
+ul:hover {
+  box-shadow: 12px 8px black;
+}
+
+ nav, li {
+  display: inline-block;
+ text-decoration: none;
+transition: 0.8 ease;
+}
+
+li {
+   cursor: pointer;
+  display: flex;
+   justify-content: space-between;
+}
+
+li:hover {
+  color: #8B2635;
+}
+
