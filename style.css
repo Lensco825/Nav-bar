@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+  background-color: #D3EFBD;
 }
 
 body {
@@ -8,17 +9,15 @@ body {
   width: 100%;
 display: flex;
   justify-content: center;
-  align-items: center;  
-  background-color: #D3EFBD;
+  align-items: center;
 }
 
 ul {
   border: solid 2px black;
-  transition: 0.8s ease;
+  transition: 0.8s;
 }
 
 ul:hover {
-  margin-bottom: 50px;
   box-shadow: 12px 8px black;
 }
 
